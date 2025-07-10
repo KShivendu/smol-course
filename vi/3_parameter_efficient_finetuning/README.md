@@ -4,7 +4,7 @@ Khi các mô hình ngôn ngữ ngày càng lớn hơn, việc tinh chỉnh truy�
 
 Tinh chỉnh truyền thống cập nhật tất cả các tham số mô hình trong quá trình huấn luyện, điều này trở nên không khả thi với các mô hình lớn. Các phương pháp PEFT giới thiệu cách tiếp cận để điều chỉnh mô hình sử dụng ít tham số có thể huấn luyện hơn - thường ít hơn 1% kích thước mô hình gốc. Việc giảm đáng kể số lượng tham số có thể huấn luyện cho phép:
 
-- Tinh chỉnh trên phần cứng tiêu dùng với bộ nhớ GPU hạn chế 
+- Tinh chỉnh trên phần cứng tiêu dùng với bộ nhớ GPU hạn chế
 - Lưu trữ nhiều phiên bản điều chỉnh (adapters) cho từng tác vụ một cách hiệu quả
 - Khả năng tổng quát hóa tốt hơn trong các trường hợp dữ liệu ít
 - Chu kỳ huấn luyện và thử nghiệm nhanh hơn
@@ -25,8 +25,8 @@ Prompt tuning cung cấp cách tiếp cận **thậm chí nhẹ hơn** bằng c�
 
 | Tiêu đề | Mô tả | Bài tập | Link | Colab |
 |---------|--------|---------|------|-------|
-| Tinh chỉnh LoRA | Học cách tinh chỉnh mô hình sử dụng LoRA adapters | 🐢 Huấn luyện mô hình sử dụng LoRA<br>🐕 Thử nghiệm với các giá trị rank khác nhau<br>🦁 So sánh hiệu suất với tinh chỉnh đầy đủ | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Tải LoRA Adapters | Học cách tải và sử dụng LoRA adapters đã huấn luyện | 🐢 Tải adapters đã huấn luyện trước<br>🐕 Gộp adapters với mô hình cơ sở<br>🦁 Chuyển đổi giữa nhiều adapters | [Notebook](./notebooks/load_lora_adapter.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Tinh chỉnh LoRA | Học cách tinh chỉnh mô hình sử dụng LoRA adapters | 🐢 Huấn luyện mô hình sử dụng LoRA<br>🐕 Thử nghiệm với các giá trị rank khác nhau<br>🦁 So sánh hiệu suất với tinh chỉnh đầy đủ | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Tải LoRA Adapters | Học cách tải và sử dụng LoRA adapters đã huấn luyện | 🐢 Tải adapters đã huấn luyện trước<br>🐕 Gộp adapters với mô hình cơ sở<br>🦁 Chuyển đổi giữa nhiều adapters | [Notebook](./notebooks/load_lora_adapter.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## Tài liệu tham khảo
 - [Tài liệu PEFT](https://huggingface.co/docs/peft)

@@ -22,8 +22,8 @@ VLMのファインチューニングに関する詳細なガイダンスにつ�
 
 | タイトル | 説明 | 演習 | リンク | Colab |
 |-------|-------------|----------|------|-------|
-| VLMの使用 | 事前トレーニングされたVLMをさまざまなタスクに使用する方法を学ぶ | 🐢 画像を処理する<br>🐕 バッチ処理で複数の画像を処理する<br>🦁 ビデオ全体を処理する | [ノートブック](./notebooks/vlm_usage_sample.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/5_vision_language_models/notebooks/vlm_usage_sample.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| VLMのファインチューニング | タスク固有のデータセットに対して事前トレーニングされたVLMをファインチューニングする方法を学ぶ | 🐢 基本的なデータセットを使用してファインチューニングする<br>🐕 新しいデータセットを試す<br>🦁 代替のファインチューニング方法を試す | [ノートブック](./notebooks/vlm_sft_sample.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/5_vision_language_models/notebooks/vlm_sft_sample.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| VLMの使用 | 事前トレーニングされたVLMをさまざまなタスクに使用する方法を学ぶ | 🐢 画像を処理する<br>🐕 バッチ処理で複数の画像を処理する<br>🦁 ビデオ全体を処理する | [ノートブック](./notebooks/vlm_usage_sample.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/5_vision_language_models/notebooks/vlm_usage_sample.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| VLMのファインチューニング | タスク固有のデータセットに対して事前トレーニングされたVLMをファインチューニングする方法を学ぶ | 🐢 基本的なデータセットを使用してファインチューニングする<br>🐕 新しいデータセットを試す<br>🦁 代替のファインチューニング方法を試す | [ノートブック](./notebooks/vlm_sft_sample.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/5_vision_language_models/notebooks/vlm_sft_sample.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## 参考文献
 - [Hugging Face Learn: Supervised Fine-Tuning VLMs](https://huggingface.co/learn/cookbook/fine_tuning_vlm_trl)

@@ -16,7 +16,7 @@
 ### 1️⃣ LoRA (Low-Rank Adaptation)
 
 LoRA는 효율적인 모델 적응을 위한 멋진 솔루션을 제공하면서 가장 많이 사용되는 PEFT 방법으로 자리 잡았습니다. LoRA는 전체 모델을 수정하는 대신 **학습 가능한 파라미터를 모델의 어텐션 레이어에 주입**합니다. 이 접근법은 전체 미세 조정과 비슷한 성능을 유지하면서 학습 가능한 파라미터를 약 90%까지 줄입니다. [LoRA (Low-Rank Adaptation)](./lora_adapters.md) 섹션에서 LoRA에 대해 자세히 알아보겠습니다.
- 
+
 ### 2️⃣ 프롬프트 튜닝
 
 프롬프트 튜닝은 모델 가중치를 수정하는 대신 **입력에 학습 가능한 토큰을 추가**하여 **더 경량화된** 접근법을 제공합니다. 프롬프트 튜닝은 LoRA만큼 유명하지는 않지만, 모델을 새로운 태스크나 도메인에 빠르게 적용할 때 유용하게 쓰일 수 있는 기술입니다. [프롬프트 튜닝](./prompt_tuning.md) 섹션에서 프롬프트 튜닝에 대해 탐구해볼 예정입니다.
@@ -25,9 +25,9 @@ LoRA는 효율적인 모델 적응을 위한 멋진 솔루션을 제공하면서
 
 | 파일명 | 설명 | 실습 내용 | 링크 | Colab |
 |-------|-------------|----------|------|-------|
-| LoRA Fine-tuning | LoRA 어댑터를 사용해 모델을 미세 조정하는 방법 학습 | 🐢 LoRA를 사용해 모델 학습해보기<br>🐕 다양한 랭크 값으로 실험해보기<br>🦁 전체 미세 조정과 성능 비교해보기 | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Load LoRA Adapters | LoRA 어댑터를 불러오고 학습시키는 방법 배우기 | 🐢 사전 학습된 어댑터 불러오기<br>🐕 기본 모델과 어댑터 합치기<br>🦁 여러 어댑터 간 전환해보기 | [Notebook](./notebooks/load_lora_adapter_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-<!-- | Prompt Tuning | Learn how to implement prompt tuning | 🐢 Train soft prompts<br>🐕 Compare different initialization strategies<br>🦁 Evaluate on multiple tasks | [Notebook](./notebooks/prompt_tuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/prompt_tuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | -->
+| LoRA Fine-tuning | LoRA 어댑터를 사용해 모델을 미세 조정하는 방법 학습 | 🐢 LoRA를 사용해 모델 학습해보기<br>🐕 다양한 랭크 값으로 실험해보기<br>🦁 전체 미세 조정과 성능 비교해보기 | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Load LoRA Adapters | LoRA 어댑터를 불러오고 학습시키는 방법 배우기 | 🐢 사전 학습된 어댑터 불러오기<br>🐕 기본 모델과 어댑터 합치기<br>🦁 여러 어댑터 간 전환해보기 | [Notebook](./notebooks/load_lora_adapter_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+<!-- | Prompt Tuning | Learn how to implement prompt tuning | 🐢 Train soft prompts<br>🐕 Compare different initialization strategies<br>🦁 Evaluate on multiple tasks | [Notebook](./notebooks/prompt_tuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/prompt_tuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | -->
 
 ## 참고
 - [Hugging Face PEFT 문서](https://huggingface.co/docs/peft)
@@ -35,5 +35,5 @@ LoRA는 효율적인 모델 적응을 위한 멋진 솔루션을 제공하면서
 - [QLoRA 논문](https://arxiv.org/abs/2305.14314)
 - [프롬프트 튜닝 논문](https://arxiv.org/abs/2104.08691)
 - [Hugging Face PEFT 가이드](https://huggingface.co/blog/peft)
-- [How to Fine-Tune LLMs in 2024 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2024-with-trl) 
+- [How to Fine-Tune LLMs in 2024 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2024-with-trl)
 - [TRL](https://huggingface.co/docs/trl/index)

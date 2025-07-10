@@ -23,7 +23,7 @@ Sigue un ejemplo completo de cómo construir un flujo de evaluación específico
 
 | Título | Descripción | Ejercicio | Enlace | Colab |
 |--------|-------------|----------|-------|-------|
-| Evalúa y analiza tu LLM | Aprende a usar LightEval para evaluar y comparar modelos en dominios específicos | 🐢 Usa tareas del dominio médico para evaluar un modelo <br> 🐕 Crea una evaluación de dominio con diferentes tareas MMLU <br> 🦁 Diseña una tarea de evaluación personalizada para tu dominio | [Cuaderno](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Evalúa y analiza tu LLM | Aprende a usar LightEval para evaluar y comparar modelos en dominios específicos | 🐢 Usa tareas del dominio médico para evaluar un modelo <br> 🐕 Crea una evaluación de dominio con diferentes tareas MMLU <br> 🦁 Diseña una tarea de evaluación personalizada para tu dominio | [Cuaderno](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## Recursos
 

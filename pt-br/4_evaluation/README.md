@@ -4,7 +4,7 @@ A avaliação é uma etapa crítica no desenvolvimento e implantação de modelo
 
 Usaremos o [`lighteval`](https://github.com/huggingface/lighteval), uma poderosa biblioteca de avaliação desenvolvida pelo Hugging Face que se integra perfeitamente ao ecossistema Hugging Face. Para um aprendizado mais profundo nos conceitos e práticas recomendadas de avaliação, confira o [guia](https://github.com/huggingface/evaluation-guidebook).
 
-## Visão Geral do Módulo 
+## Visão Geral do Módulo
 
 Uma estratégia de avaliação completa examina múltiplos aspectos do desempenho do modelo. Avaliamos capacidades específicas de tarefas, como responder a perguntas e sumarização, para entender como o modelo lida com diferentes tipos de problemas. Medimos a qualidade do output através de fatores como coerência e precisão factual. A avaliação de segurança ajuda a identificar outputs potencialmente prejudiciais ou biases. Por fim, os testes de especialização de domínio verificam o conhecimento especializado do modelo no campo-alvo.
 
@@ -26,7 +26,7 @@ Siga um exemplo completo de construção de um pipeline de avaliação de domín
 
 | Título | Descrição | Exercício | Link | Colab |
 |-------|-------------|----------|------|-------|
-| Avalie e Analise Seu LLM | Aprenda a usar o LightEval para avaliar e comparar modelos em domínios específicos | 🐢 Use tarefas do domínio da medicina para avaliar um modelo <br> 🐕 Crie uma nova avaliação de domínio com diferentes tarefas do MMLU <br> 🦁 Crie uma tarefa de avaliação personalizada para o seu domínio | [Notebook](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Avalie e Analise Seu LLM | Aprenda a usar o LightEval para avaliar e comparar modelos em domínios específicos | 🐢 Use tarefas do domínio da medicina para avaliar um modelo <br> 🐕 Crie uma nova avaliação de domínio com diferentes tarefas do MMLU <br> 🦁 Crie uma tarefa de avaliação personalizada para o seu domínio | [Notebook](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 ## Referências

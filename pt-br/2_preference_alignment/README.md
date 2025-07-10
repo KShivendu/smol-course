@@ -10,7 +10,7 @@ Métodos de alinhamento típicos envolvem vários estágios:
 
 Abordagens alternativas como ORPO combinam ajuste de instrução e alinhamento de preferência em um único processo. Aqui, vamos focar nos algoritmos DPO e ORPO.
 
-Se você quer aprender mais sobre as diferentes técnicas de alinhamento, você pode ler mais sobre isso no [Argilla Blog](https://argilla.io/blog/mantisnlp-rlhf-part-8). 
+Se você quer aprender mais sobre as diferentes técnicas de alinhamento, você pode ler mais sobre isso no [Argilla Blog](https://argilla.io/blog/mantisnlp-rlhf-part-8).
 
 ### 1️⃣ Otimização de Preferência Direta (DPO - Direct Preference Optimization)
 
@@ -25,8 +25,8 @@ ORPO introduz uma abordagem combinada para ajuste de instrução e alinhamento d
 
 | Título | Descrição | Exercício | Link | Colab |
 |-------|-------------|----------|------|-------|
-| Treinamento em DPO | Aprenda a treinar modelos usando a Otimização Direta de Preferência | 🐢 Treine um modelo usando o conjunto de dados Anthropic HH-RLHF<br>🐕 Use seu próprio conjunto de dados de preferências<br>🦁 Experimente diferentes conjuntos de dados de preferências e tamanhos de modelos | [Exercício](./notebooks/dpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/2_preference_alignment/notebooks/dpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Treinamento em ORPO | Aprenda a treinar modelos usando a otimização de preferências de razão de chances | 🐢 Treine um modelo usando instruções e dados de preferências<br>🐕 Experimente com diferentes pesos de perda<br>🦁 Comparar os resultados de ORPO com DPO | [Exercício](./notebooks/orpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/2_preference_alignment/notebooks/orpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Treinamento em DPO | Aprenda a treinar modelos usando a Otimização Direta de Preferência | 🐢 Treine um modelo usando o conjunto de dados Anthropic HH-RLHF<br>🐕 Use seu próprio conjunto de dados de preferências<br>🦁 Experimente diferentes conjuntos de dados de preferências e tamanhos de modelos | [Exercício](./notebooks/dpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/2_preference_alignment/notebooks/dpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Treinamento em ORPO | Aprenda a treinar modelos usando a otimização de preferências de razão de chances | 🐢 Treine um modelo usando instruções e dados de preferências<br>🐕 Experimente com diferentes pesos de perda<br>🦁 Comparar os resultados de ORPO com DPO | [Exercício](./notebooks/orpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/2_preference_alignment/notebooks/orpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 ## Referências

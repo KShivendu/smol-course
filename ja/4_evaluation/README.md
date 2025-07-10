@@ -26,7 +26,7 @@ Hugging Faceが開発した強力な評価ライブラリである[`lighteval`](
 
 | タイトル | 説明 | 演習 | リンク | Colab |
 |-------|-------------|----------|------|-------|
-| LLMの評価と分析 | LightEvalを使用して特定のドメインでモデルを評価および比較する方法を学びます | 🐢 医療ドメインタスクを使用してモデルを評価する <br> 🐕 異なるMMLUタスクで新しいドメイン評価を作成する <br> 🦁 ドメイン固有のカスタム評価タスクを作成する | [ノートブック](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| LLMの評価と分析 | LightEvalを使用して特定のドメインでモデルを評価および比較する方法を学びます | 🐢 医療ドメインタスクを使用してモデルを評価する <br> 🐕 異なるMMLUタスクで新しいドメイン評価を作成する <br> 🦁 ドメイン固有のカスタム評価タスクを作成する | [ノートブック](./notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/4_evaluation/notebooks/lighteval_evaluate_and_analyse_your_LLM.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## リソース
 

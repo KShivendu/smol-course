@@ -16,8 +16,8 @@
 
 | タイトル | 説明 | 演習 | リンク | Colab |
 |--------|-------------|-----------|--------|-------|
-| チャットテンプレート | SmolLM2を使用してチャットテンプレートを使用し、チャットml形式のデータセットを処理する方法を学びます | 🐢 `HuggingFaceTB/smoltalk`データセットをchatml形式に変換 <br> 🐕 `openai/gsm8k`データセットをchatml形式に変換 | [ノートブック](./notebooks/chat_templates_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/1_instruction_tuning/notebooks/chat_templates_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| 教師あり微調整 | SFTTrainerを使用してSmolLM2を微調整する方法を学びます | 🐢 `HuggingFaceTB/smoltalk`データセットを使用 <br> 🐕 `bigcode/the-stack-smol`データセットを試す <br> 🦁 実際の使用ケースに関連するデータセットを選択 | [ノートブック](./notebooks/sft_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/1_instruction_tuning/notebooks/sft_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| チャットテンプレート | SmolLM2を使用してチャットテンプレートを使用し、チャットml形式のデータセットを処理する方法を学びます | 🐢 `HuggingFaceTB/smoltalk`データセットをchatml形式に変換 <br> 🐕 `openai/gsm8k`データセットをchatml形式に変換 | [ノートブック](./notebooks/chat_templates_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/1_instruction_tuning/notebooks/chat_templates_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| 教師あり微調整 | SFTTrainerを使用してSmolLM2を微調整する方法を学びます | 🐢 `HuggingFaceTB/smoltalk`データセットを使用 <br> 🐕 `bigcode/the-stack-smol`データセットを試す <br> 🦁 実際の使用ケースに関連するデータセットを選択 | [ノートブック](./notebooks/sft_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/1_instruction_tuning/notebooks/sft_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## 参考文献
 

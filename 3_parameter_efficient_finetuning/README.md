@@ -16,7 +16,7 @@ In this module, we will cover two popular PEFT methods:
 ### 1️⃣ LoRA (Low-Rank Adaptation)
 
 LoRA has emerged as the most widely adopted PEFT method, offering an elegant solution to efficient model adaptation. Instead of modifying the entire model, **LoRA injects trainable matrices into the model's attention layers.** This approach typically reduces trainable parameters by about 90% while maintaining comparable performance to full fine-tuning. We will explore LoRA in the [LoRA (Low-Rank Adaptation)](./lora_adapters.md) section.
- 
+
 ### 2️⃣ Prompt Tuning
 
 Prompt tuning offers an **even lighter** approach by **adding trainable tokens to the input** rather than modifying model weights. Prompt tuning is less popular than LoRA, but can be a useful technique for quickly adapting a model to new tasks or domains. We will explore prompt tuning in the [Prompt Tuning](./prompt_tuning.md) section.
@@ -25,9 +25,9 @@ Prompt tuning offers an **even lighter** approach by **adding trainable tokens t
 
 | Title | Description | Exercise | Link | Colab |
 |-------|-------------|----------|------|-------|
-| LoRA Fine-tuning | Learn how to fine-tune models using LoRA adapters | 🐢 Train a model using LoRA<br>🐕 Experiment with different rank values<br>🦁 Compare performance with full fine-tuning | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Load LoRA Adapters | Learn how to load and use trained LoRA adapters | 🐢 Load pre-trained adapters<br>🐕 Merge adapters with base model<br>🦁 Switch between multiple adapters | [Notebook](./notebooks/load_lora_adapter.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-<!-- | Prompt Tuning | Learn how to implement prompt tuning | 🐢 Train soft prompts<br>🐕 Compare different initialization strategies<br>🦁 Evaluate on multiple tasks | [Notebook](./notebooks/prompt_tuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/prompt_tuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | -->
+| LoRA Fine-tuning | Learn how to fine-tune models using LoRA adapters | 🐢 Train a model using LoRA<br>🐕 Experiment with different rank values<br>🦁 Compare performance with full fine-tuning | [Notebook](./notebooks/finetune_sft_peft.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/finetune_sft_peft.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Load LoRA Adapters | Learn how to load and use trained LoRA adapters | 🐢 Load pre-trained adapters<br>🐕 Merge adapters with base model<br>🦁 Switch between multiple adapters | [Notebook](./notebooks/load_lora_adapter.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/load_lora_adapter.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+<!-- | Prompt Tuning | Learn how to implement prompt tuning | 🐢 Train soft prompts<br>🐕 Compare different initialization strategies<br>🦁 Evaluate on multiple tasks | [Notebook](./notebooks/prompt_tuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/3_parameter_efficient_finetuning/notebooks/prompt_tuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | -->
 
 ## Resources
 - [PEFT Documentation](https://huggingface.co/docs/peft)
@@ -35,5 +35,5 @@ Prompt tuning offers an **even lighter** approach by **adding trainable tokens t
 - [QLoRA Paper](https://arxiv.org/abs/2305.14314)
 - [Prompt Tuning Paper](https://arxiv.org/abs/2104.08691)
 - [Hugging Face PEFT Guide](https://huggingface.co/blog/peft)
-- [How to Fine-Tune LLMs in 2024 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2024-with-trl) 
+- [How to Fine-Tune LLMs in 2024 with Hugging Face](https://www.philschmid.de/fine-tune-llms-in-2024-with-trl)
 - [TRL](https://huggingface.co/docs/trl/index)

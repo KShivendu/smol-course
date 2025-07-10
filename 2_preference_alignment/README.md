@@ -10,7 +10,7 @@ Typical alignment methods involve multiple stages:
 
 Alternative approaches like ORPO combine instruction tuning and preference alignment into a single process. Here, we will focus on DPO and ORPO algorithms.
 
-If you would like to learn more about the different alignment techniques, you can read more about them in the [Argilla Blog](https://argilla.io/blog/mantisnlp-rlhf-part-8). 
+If you would like to learn more about the different alignment techniques, you can read more about them in the [Argilla Blog](https://argilla.io/blog/mantisnlp-rlhf-part-8).
 
 ### 1️⃣ Direct Preference Optimization (DPO)
 
@@ -25,8 +25,8 @@ ORPO introduces a combined approach to instruction tuning and preference alignme
 
 | Title | Description | Exercise | Link | Colab |
 |-------|-------------|----------|------|-------|
-| DPO Training | Learn how to train models using Direct Preference Optimization | 🐢 Train a model using the Anthropic HH-RLHF dataset<br>🐕 Use your own preference dataset<br>🦁 Experiment with different preference datasets and model sizes | [Notebook](./notebooks/dpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/2_preference_alignment/notebooks/dpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| ORPO Training | Learn how to train models using Odds Ratio Preference Optimization | 🐢 Train a model using instruction and preference data<br>🐕 Experiment with different loss weightings<br>🦁 Compare ORPO results with DPO | [Notebook](./notebooks/orpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/huggingface/smol-course/blob/main/2_preference_alignment/notebooks/orpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| DPO Training | Learn how to train models using Direct Preference Optimization | 🐢 Train a model using the Anthropic HH-RLHF dataset<br>🐕 Use your own preference dataset<br>🦁 Experiment with different preference datasets and model sizes | [Notebook](./notebooks/dpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/2_preference_alignment/notebooks/dpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| ORPO Training | Learn how to train models using Odds Ratio Preference Optimization | 🐢 Train a model using instruction and preference data<br>🐕 Experiment with different loss weightings<br>🦁 Compare ORPO results with DPO | [Notebook](./notebooks/orpo_finetuning_example.ipynb) | <a target="_blank" href="https://colab.research.google.com/github/kshivendu/smol-course/blob/main/2_preference_alignment/notebooks/orpo_finetuning_example.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 
 ## Resources
